@@ -1,0 +1,2 @@
+Laravel 4 & AngularJS E2E secured SPA:
+http://blog.neoxia.com/laravel4-and-angularjs/

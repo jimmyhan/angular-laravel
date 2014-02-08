@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1346740021">
+    <data-source source="LOCAL" name="MySQL - angular_laravel@localhost" uuid="e974f781-9bc1-4f9f-bdff-6b3abc8c6790">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/angular_laravel</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc0dfc3dfc7dfc7dfd3dfc2dfcbdfc4</user-password>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
