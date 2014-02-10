@@ -8,6 +8,7 @@
     <link href="app/css/app.css" rel="stylesheet" />
 </head>
 <body ng-app="myApp">
+<div class="alert" ng-show="flash" ng-bind="flash"></div>
 
 <div class="container" ng-view></div>
 

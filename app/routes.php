@@ -21,18 +21,11 @@ Route::get('/', function()
 //	return View::make('hello');
 //});
 
-Route::any('users/{name?}', function($name = 'Jimmy')
-{
-	//return 'Hello ' . $name .'!';
-
-		return Redirect::to('/')->with('message', 'Login Failed');
-});
-
 //Route::get('/', 'HomeController@showWelcome');
 
 Route::group(array('prefix' => 'api'), function() {
 	Route::resource('authenticate', 'AuthenticationController');
 	Route::resource('movies', 'MovieController');
-	Route::resource('user', 'userController');
+	Route::resource('user', 'UserController');
 //	Route::resource('user/{id}', 'UserController');
 });

@@ -24,10 +24,10 @@ myService.factory('User', function ($resource) {
 });
 
 myService.factory('Authenticate', function ($resource) {
-    return $resource("/service/authenticate/");
+    return $resource("/api/authenticate/");
 })
     .factory('Movies', function ($resource) {
-        return $resource("/service/movies")
+        return $resource("/api/movies")
     })
     //.factory('Users', function ($resource) {
     //    return $resource("/service/users/:userId", {},
